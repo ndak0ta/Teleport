@@ -1,9 +1,9 @@
 main: com.minecraft.plugins.App
 name: Teleport
 version: "1.0"
-api: [1.16.5]
+api-version: 1.13
 commands:
-  tp:
+  tpa:
     description: Teleport to a player
     usage: /<command> <player>
     aliases: [teleport]
