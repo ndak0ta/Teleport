@@ -26,6 +26,7 @@ public class Teleport implements CommandExecutor {
                 }
 
                 player.teleport(target.getLocation());
+                target.sendMessage(ChatColor.GREEN + player.getName() + "Teleported to you!");
             }
 
         } else {
